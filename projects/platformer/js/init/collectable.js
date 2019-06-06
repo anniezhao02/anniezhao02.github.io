@@ -34,9 +34,10 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         collectable.create(type.db, 400, 30, 20, 1.3);
-        collectable.create(type.grace, 700, 50, 40, 1.2);
-        collectable.create(type.max, 100, 250, 50, 1.5);
-        collectable.create(type.db, 80, 100, 30, 1);
+        collectable.create(type.grace, 700, 50, 40, 1);
+        collectable.create(type.max, 100, 250, 60, 1);
+        collectable.create(type.db, 80, 100, 70, 1);
+        collectable.create(type.db, 600, 600, 80, 0.9);
         // example: 
         collectable.create(type.steve, 200, 170, 6, 1.3);
         
